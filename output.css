@@ -715,6 +715,16 @@ video {
   clear: none;
 }
 
+.mx-1 {
+  margin-left: 0.25rem;
+  margin-right: 0.25rem;
+}
+
+.my-\[11px\] {
+  margin-top: 11px;
+  margin-bottom: 11px;
+}
+
 .mt-2 {
   margin-top: 0.5rem;
 }
@@ -830,6 +840,14 @@ video {
   height: 100vh;
 }
 
+.h-\[70px\] {
+  height: 70px;
+}
+
+.h-9 {
+  height: 2.25rem;
+}
+
 .w-\[this-is\\\\\] {
   width: this-is\\;
 }
@@ -900,6 +918,10 @@ video {
 
 .transform-none {
   transform: none;
+}
+
+.cursor-pointer {
+  cursor: pointer;
 }
 
 .touch-auto {
@@ -1800,6 +1822,11 @@ video {
   border-style: none;
 }
 
+.border-footer-text {
+  --tw-border-opacity: 1;
+  border-color: rgb(232 232 232 / var(--tw-border-opacity));
+}
+
 .bg-\[rgb\(255\2c 0\2c 0\)\] {
   --tw-bg-opacity: 1;
   background-color: rgb(255 0 0 / var(--tw-bg-opacity));
@@ -1808,6 +1835,11 @@ video {
 .bg-black {
   --tw-bg-opacity: 1;
   background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+}
+
+.bg-bottom-bg {
+  --tw-bg-opacity: 1;
+  background-color: rgb(48 49 52 / var(--tw-bg-opacity));
 }
 
 .decoration-slice {
@@ -1943,6 +1975,15 @@ video {
   padding-right: 1.25rem;
 }
 
+.px-4 {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.pt-\[18px\] {
+  padding-top: 18px;
+}
+
 .text-left {
   text-align: left;
 }
@@ -1999,24 +2040,16 @@ video {
   vertical-align: super;
 }
 
-.font-sans {
-  font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+.font-arial {
+  font-family: Arial, sans-serif;
 }
 
 .text-\[14px\] {
   font-size: 14px;
 }
 
-.text-\[15px\] {
-  font-size: 15px;
-}
-
 .font-bold {
   font-weight: 700;
-}
-
-.font-medium {
-  font-weight: 500;
 }
 
 .uppercase {
@@ -2506,6 +2539,10 @@ video {
       max-width: 1536px;
     }
   }
+}
+
+.hover\:border:hover {
+  border-width: 1px;
 }
 
 .hover\:font-bold:hover {
