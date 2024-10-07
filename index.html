@@ -26,11 +26,15 @@
      <!-- main  -->
      <div class="flex flex-col justify-center items-center">
         <img class="h-[92px] w-[272px]" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_light_color_272x92dp.png" alt="">
-        <div>
-            <img src="" alt="">
-            <input type="text">
-            <img src="" alt="">
-            <img src="" alt="">
+        <div class="h-[48px] w-[443px] max-w-[582px] pr-2 flex justify-between items-center rounded-full border border-footer-text">
+            <a><img class="w-5 h-5 pr-[13px] pl-[14px]" src="./search.png" alt=""></a>
+            <input type="text" class="bg-transparent">
+            <div class="flex items-center gap-x-2">
+                <a href="#"><img class="w-6 h-6" src="./voice.png" alt=""></a>
+            <a href="#"><img class="w-6 h-6" src="./lens.png" alt=""></a>
+
+            </div>
+            
         </div>
         <div class="h-[70px] pt-[18px] flex justify-center items-center flex-grow box-border">
             <a href="" class="px-4 my-[11px] mx-1 bg-bottom-bg rounded text-footer-text font-arial box-border  h-9 flex items-center justify-center cursor-pointer hover:border border-footer-text">Google Search</a>
@@ -38,7 +42,7 @@
         </div>
      </div>
      <!-- footer  -->
-     <div class="flex justify-between items-center h-[46px] px-5 text-[14px] font-arial bg-black text-footer-text">
+     <div class="flex justify-center md:justify-between items-center h-fit px-5 text-[14px] font-arial bg-black text-footer-text flex-wrap gap-y-3">
         <div>
             <a href="" class="p-[15px] hover:underline box-border">About</a>
             <a href="" class="p-[15px] hover:underline box-border">Advertising</a>
